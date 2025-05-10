@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Chatbox com Personagem</title>
+   
+</head>
+<body>
+   
+  <button onclick="falar()">
+    Falar com NPC
+  </button>
+   
+  <!-- Personagem em destaque -->
+  <div class="character-container"  id="character-container">
+    <img src="Maria.gif"  alt="Personagem" class="character" id="myGif">
+  </div>
+
+
+  <!--------- Caixa de diálogo -->
+  <div  id="container">
+    <div class="chatbox-container" id="chatbox-container">
+      <div class="chatbox">
+        <div class="avatar"></div>
+        <div class="dialogue" id="legenda">
+          <div class="name-tag" >Maria</div>
+                  This is just a test for observing how this text box would 
+                  look with some random text filled in it.
+          <div class="corner-decor bottom-right"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!---------------------------->
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
